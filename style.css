@@ -2,3 +2,28 @@
   margin: 0;
   padding: 0;
 }
+
+.user-data {
+  border: solid 1px black;
+  padding: 5px;
+  font-size: 1.5em;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.user-data > h3 {
+  text-align: center;
+}
+.line {
+  display: flex;
+  margin-top: 10px;
+}
+.line > label {
+  flex-grow: 1;
+}
+.input-type1 {
+  width: 400px;
+}
+button {
+  width: 100px;
+  font-size: 20px;
+}

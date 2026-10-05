@@ -6,5 +6,73 @@
     <link rel="stylesheet" href="style.css" />
     <title>FORMS</title>
   </head>
-  <body></body>
+  <body>
+    <form action="" class="user-data" autocomplete="on">
+      <h3>Анкета пользователя</h3>
+      <div class="line">
+        <label for="name">имя</label>
+        <input type="text" id="name" class="input-type1" />
+      </div>
+      <div class="line">
+        <label for="name">пароль</label>
+        <input type="password" id="name" class="input-type1" />
+      </div>
+      <div class="line">
+        <label for="name">отчество</label>
+        <input type="text" id="surname" class="input-type1" />
+      </div>
+      <div class="line">
+        <label for="name">фамилия</label>
+        <input
+          type="text"
+          id="famile"
+          class="input-type1"
+          placeholder="ФАМИЛИЯ"
+        />
+      </div>
+      <div class="line">
+        <label for="name">тел</label>
+        <input type="tel" id="famile" class="input-type1" />
+      </div>
+      <div class="line">
+        <label for="name">тел</label>
+        <input type="email" class="input-type1" />
+      </div>
+      <div class="line">
+        <input type="date" name="" id="" />
+      </div>
+      <div class="line">
+        <input type="file" name="" id="" />
+      </div>
+      <h4>вопрос 1</h4>
+      <div class="line">
+        <input type="checkbox" name="q1" id="var1" checked />
+        <label for="var1">вариант 1</label>
+        <input type="checkbox" name="q1" id="var2" />
+        <label for="var2">вариант 2</label>
+        <input type="checkbox" name="q1" id="var3" />
+        <label for="var3">вариант 3</label>
+      </div>
+      <h4>вопрос 2</h4>
+      <div class="line">
+        <input type="checkbox" name="q2" id="var1" />
+        <label for="var1">вариант 1</label>
+        <input type="checkbox" name="q2" id="var2" checked />
+        <label for="var2">вариант 2</label>
+        <input type="checkbox" name="q2" id="var3" />
+        <label for="var3">вариант 3</label>
+      </div>
+      <div class="line">
+        <input type="radio" name="q3" id="var1" />
+        <label for="var1">var 1</label>
+        <input type="radio" name="q3" id="var2" />
+        <label for="var2">var 2</label>
+        <input type="radio" name="q3" id="var3" />
+        <label for="var3">var 3</label>
+      </div>
+
+      <button type="submit">ок</button>
+      <button type="reset">сброс</button>
+    </form>
+  </body>
 </html>
