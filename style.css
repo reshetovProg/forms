@@ -3,27 +3,58 @@
   padding: 0;
 }
 
+:root {
+  --form-color: rgb(245, 243, 238);
+  --line-color: rgb(99, 99, 99);
+  --line-color2: rgb(192, 192, 192);
+}
+
 .user-data {
-  border: solid 1px black;
+  margin: auto;
+  margin-top: 30px;
+  background-color: var(--form-color);
+  box-shadow: 0px 0px 30px 0px rgba(75, 65, 33, 0.507);
   padding: 5px;
-  font-size: 1.5em;
+  color: var(--line-color);
+  font-size: 18px;
   width: 600px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.user-data > h3 {
-  text-align: center;
-}
 .line {
   display: flex;
+  gap: 10px;
   margin-top: 10px;
 }
-.line > label {
-  flex-grow: 1;
+.line > input,
+select {
+  color: var(--line-color);
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px var(--line-color);
+  background-color: var(--form-color);
+  padding: 10px;
 }
-.input-type1 {
-  width: 400px;
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.block > h2 {
+  font-size: 20px;
+}
+.line2 {
+  padding: 20px;
 }
 button {
-  width: 100px;
-  font-size: 20px;
+  background-color: rgb(18, 63, 48);
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 5px 30px;
+}
+.line3 {
+  border-top: 1px solid var(--line-color2);
+  padding: 20px;
+  display: flex;
+  justify-content: end;
 }

@@ -8,71 +8,44 @@
   </head>
   <body>
     <form action="" class="user-data" autocomplete="on">
-      <h3>Анкета пользователя</h3>
-      <div class="line">
-        <label for="name">имя</label>
-        <input type="text" id="name" class="input-type1" />
+      <div class="block">
+        <h2>Registration form</h2>
+        <div class="line">
+          <input type="text" placeholder="Username" />
+        </div>
+        <div class="line">
+          <input type="email" placeholder="Email address" />
+        </div>
+        <div class="line">
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm password" />
+        </div>
       </div>
-      <div class="line">
-        <label for="name">пароль</label>
-        <input type="password" id="name" class="input-type1" />
-      </div>
-      <div class="line">
-        <label for="name">отчество</label>
-        <input type="text" id="surname" class="input-type1" />
-      </div>
-      <div class="line">
-        <label for="name">фамилия</label>
-        <input
-          type="text"
-          id="famile"
-          class="input-type1"
-          placeholder="ФАМИЛИЯ"
-        />
-      </div>
-      <div class="line">
-        <label for="name">тел</label>
-        <input type="tel" id="famile" class="input-type1" />
-      </div>
-      <div class="line">
-        <label for="name">тел</label>
-        <input type="email" class="input-type1" />
-      </div>
-      <div class="line">
-        <input type="date" name="" id="" />
-      </div>
-      <div class="line">
-        <input type="file" name="" id="" />
-      </div>
-      <h4>вопрос 1</h4>
-      <div class="line">
-        <input type="checkbox" name="q1" id="var1" checked />
-        <label for="var1">вариант 1</label>
-        <input type="checkbox" name="q1" id="var2" />
-        <label for="var2">вариант 2</label>
-        <input type="checkbox" name="q1" id="var3" />
-        <label for="var3">вариант 3</label>
-      </div>
-      <h4>вопрос 2</h4>
-      <div class="line">
-        <input type="checkbox" name="q2" id="var1" />
-        <label for="var1">вариант 1</label>
-        <input type="checkbox" name="q2" id="var2" checked />
-        <label for="var2">вариант 2</label>
-        <input type="checkbox" name="q2" id="var3" />
-        <label for="var3">вариант 3</label>
-      </div>
-      <div class="line">
-        <input type="radio" name="q3" id="var1" />
-        <label for="var1">var 1</label>
-        <input type="radio" name="q3" id="var2" />
-        <label for="var2">var 2</label>
-        <input type="radio" name="q3" id="var3" />
-        <label for="var3">var 3</label>
+      <div class="block">
+        <h2>Personal details</h2>
+        <div class="line">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="First name" />
+        </div>
+        <div class="line">
+          <select name="sex" id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <input type="date" name="" id="" />
+        </div>
       </div>
 
-      <button type="submit">ок</button>
-      <button type="reset">сброс</button>
+      <div class="line2">
+        <input type="checkbox" name="conv" id="conv1" />
+        <label for="conv1">I want to receive news and special offers</label>
+        <br />
+        <input type="checkbox" name="conv" id="conv1" />
+        <label for="conv1">I agree with the Terms and Conditions</label>
+      </div>
+      <div class="line3">
+        <button type="submit">SUBMIT</button>
+      </div>
     </form>
   </body>
 </html>
